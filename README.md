@@ -11,7 +11,7 @@ Jetson-SLAM is a GPU-thrusted real-time SLAM library for **Monocular**, **Stereo
 **Jetson-SLAM can run with Deep Neural Networks. It is fully behchmarked with VGG**
 
 <a href="https://drive.google.com/file/d/16FN0FKy76R6MBdu44WzHyH3KstruOeJT/view?usp=drive_link" target="_blank"><img src="/assets/img/video_thumbnail.png" 
-alt="Jetson-SLAM" width="640" height="480" border="10" /></a>
+alt="Jetson-SLAM" width="967" height="543" border="10" /></a>
 
 
 
