@@ -22,7 +22,7 @@ Jetson-SLAM is released under a [GPLv3 license].
 
      @article{Jetson-SLAM,
        title={{High-Speed Stereo Visual-{SLAM} For Low-Powered Computing Devices},
-       author={Kumar, Ashish and Vohra, Mohit and Prakash, Ravi and Behera, Laxmidhar},
+       author={Kumar, Ashish and Park, Jaesik and Behera, Laxmidhar},
        year={2023},
       }
 

@@ -14,7 +14,7 @@ Jetson-SLAM is a GPU-thrusted real-time SLAM library for **Monocular**, **Stereo
 [//]:alt="ORB-SLAM2" width="240" height="180" border="10" /></a>
 
 
-# 1. License
+### License
 
 Jetson-SLAM is released under a [GPLv3 license].
 
