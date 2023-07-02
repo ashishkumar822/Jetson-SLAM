@@ -44,6 +44,30 @@ alt="Jetson-SLAM" width="483" height="271" border="0" /></a>
 ![Co-exating VGG performance](/assets/img/vgg.png)
 
 
+### Build Instructions
+
+	**Step-1**
+	 Install the dependencies given below:
+
+	1. OpenCV 3
+	2. Eigen3
+	3. CUDA
+	4. Pangolin
+
+
+	**Step-2**
+	 Run build.sh
+
+### Run Instructions
+
+	Go to execs and run Jetson-SLAM on following choices
+	1. Run stereo_kitti for [KITTI Benchmark]()
+	2. Run stereo_euroc for [EuRoC Benchmark]()
+	3. Run stereo_kaistvio for [KAIST-VIO Benchmark]()
+	4. Run stereo_live for live images from a Stereo-Rig. Please customize the "stereo_live_config.yaml" file for your stereo rig.
+	
+
+
 ### License
 
 Jetson-SLAM is released under a [GPLv3 license].
@@ -56,6 +80,3 @@ Jetson-SLAM is released under a [GPLv3 license].
        year={2023},
       }
 
-### Build Instructions
-
-     See build_instructions.txt
