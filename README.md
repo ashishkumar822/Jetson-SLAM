@@ -66,7 +66,7 @@ alt="Jetson-SLAM" width="483" height="271" border="0" />
 
 	**Step-2**
 	 Run build.sh
-
+[link](https://github.com/zinuok/VINS-MONO)
 ### Run Instructions
 
 	Go to execs and run Jetson-SLAM on following choices:
