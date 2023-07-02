@@ -1,5 +1,6 @@
 # Jetson-SLAM
-**More details Coming on ReadMe**
+**To be done**
+**Jetson-SLAM front-end only will be released in a separate repository**
 
 **Authors:** Ashish Kumar
 
@@ -55,4 +56,6 @@ Jetson-SLAM is released under a [GPLv3 license].
        year={2023},
       }
 
+### Build Instructions
 
+     See build_instructions.txt
