@@ -13,12 +13,17 @@ Jetson-SLAM is a GPU-thrusted real-time SLAM library for **Monocular**, **Stereo
 **Jetson-SLAM can run with Deep Neural Networks. It is fully behchmarked with VGG**
 
 # Video
+<p align="center">
 <a href="https://drive.google.com/file/d/16FN0FKy76R6MBdu44WzHyH3KstruOeJT/view?usp=drive_link" target="_blank" ><img align="center" src="/assets/img/video_thumbnail.png" 
 alt="Jetson-SLAM" width="483" height="271" border="0" /></a>
+</p>
 
-
+<div>
+<p align="center">
 <img align="center" src="/assets/gif/kaistvio_circle.gif" 
 alt="Jetson-SLAM" width="483" height="271" border="0" />
+</p>
+
 
 #### Highlight
 ![Highlight](/assets/img/fig1.png)
@@ -65,8 +70,8 @@ alt="Jetson-SLAM" width="483" height="271" border="0" />
 ### Run Instructions
 
 	Go to execs and run Jetson-SLAM on following choices:
-	1. Run stereokitti for [KITTI Benchmark](https://www.cvlibs.net/datasets/kitti/eval_odometry.php)
-	2. Run stereo_euroc for [!EuRoC Benchmark](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets)
+	1. Run stereo_kitti for [KITTI Benchmark] (https://www.cvlibs.net/datasets/kitti/eval_odometry.php)
+	2. Run stereo_euroc for [EuRoC Benchmark](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets)
 	3. Run stereo_kaistvio for [KAIST-VIO Benchmark](https://github.com/url-kaist/kaistviodataset)
 	4. Run stereo_live for live images from a Stereo-Rig. Please customize the "stereo_live_config.yaml" file for your stereo rig.
 	
