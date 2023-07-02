@@ -73,7 +73,7 @@ alt="Jetson-SLAM" width="483" height="271" border="0" /></a>
 
 Jetson-SLAM is released under a [GPLv3 license].
 
-### Consider citing Jetson-SLAM if you use it in your research, please cite:
+### Bibtex citation:
 
      @article{Jetson-SLAM,
        title={{High-Speed Stereo Visual-{SLAM} For Low-Powered Computing Devices},
