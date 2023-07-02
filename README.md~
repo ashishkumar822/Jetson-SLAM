@@ -10,6 +10,9 @@ Jetson-SLAM is a GPU-thrusted real-time SLAM library for **Monocular**, **Stereo
 
 **Jetson-SLAM can run with Deep Neural Networks. It is fully behchmarked with VGG**
 
+<a href="https://drive.google.com/file/d/16FN0FKy76R6MBdu44WzHyH3KstruOeJT/view?usp=drive_link" target="_blank"><img src="http://img.youtube.com/vi/ufvPS5wJAx0/0.jpg" 
+alt="ORB-SLAM2" width="240" height="180" border="10" /></a>
+
 
 
 #### Highlight
@@ -35,6 +38,9 @@ Jetson-SLAM is a GPU-thrusted real-time SLAM library for **Monocular**, **Stereo
 ![Results on KAIST-VIO Benchmark](/assets/img/kaistvio_table.png)
 
 ![KAIST-VIO Trajectories](/assets/img/kaistvio_traj.png)
+
+#### Performance with scaled versions of VGG-16 Co-existing on Jetson-NX
+![Co-exating VGG performance](/assets/img/vgg.png)
 
 
 ### License
