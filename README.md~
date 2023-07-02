@@ -17,6 +17,8 @@ Jetson-SLAM is a GPU-thrusted real-time SLAM library for **Monocular**, **Stereo
 alt="Jetson-SLAM" width="483" height="271" border="0" /></a>
 
 
+![KAISTVIO_GIF](/assets/gif/kaistvio_circle.gif)
+
 #### Highlight
 ![Highlight](/assets/img/fig1.png)
 
@@ -73,7 +75,7 @@ alt="Jetson-SLAM" width="483" height="271" border="0" /></a>
 
 Jetson-SLAM is released under a [GPLv3 license].
 
-### Bibtex citations:
+### Bibtex citation:
 
      @article{Jetson-SLAM,
        title={{High-Speed Stereo Visual-{SLAM} For Low-Powered Computing Devices},
