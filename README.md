@@ -65,9 +65,9 @@ alt="Jetson-SLAM" width="483" height="271" border="0" />
 ### Run Instructions
 
 	Go to execs and run Jetson-SLAM on following choices:
-	1. Run stereo_kitti for [KITTI Benchmark]()
-	2. Run stereo_euroc for [EuRoC Benchmark]()
-	3. Run stereo_kaistvio for [KAIST-VIO Benchmark]()
+	1. Run stereo_kitti for [KITTI Benchmark](https://www.cvlibs.net/datasets/kitti/eval_odometry.php)
+	2. Run stereo_euroc for [EuRoC Benchmark](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets)
+	3. Run stereo_kaistvio for [KAIST-VIO Benchmark](https://github.com/url-kaist/kaistviodataset)
 	4. Run stereo_live for live images from a Stereo-Rig. Please customize the "stereo_live_config.yaml" file for your stereo rig.
 	
 
