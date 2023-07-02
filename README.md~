@@ -18,16 +18,13 @@ Jetson-SLAM is a GPU-thrusted real-time SLAM library for **Monocular**, **Stereo
 alt="Jetson-SLAM" width="483" height="271" border="0" /></a>
 </p>
 
-# Animations
+# Main highlights
 <div>
 <p align="center">
-<img align="center" src="/assets/gif/kaistvio_circle.gif" 
-alt="Jetson-SLAM" width="483" height="271" border="0" />
+<img src="/assets/img/fig1.png" alt="front-end" width="400" height="400" border="0" />
+<img src="/assets/gif/kaistvio_circle.gif" alt="Jetson-SLAM" width="400" height="400" border="0" />
 </p>
 
-
-#### Highlight
-![Highlight](/assets/img/fig1.png)
 
 # 1. Main Results
 
