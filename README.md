@@ -20,13 +20,16 @@ Jetson-SLAM is released under a [GPLv3 license].
 
 ### Consider citing Jetson-SLAM if you use it in your research, please cite:
 
-...
-@article{Jetson-SLAM,
-title={{High-Speed Stereo Visual-{SLAM} For Low-Powered Computing Devices},
-author={Kumar, Ashish and Vohra, Mohit and Prakash, Ravi and Behera, Laxmidhar},
-year={2023},
-}
-...
 
+    @article{murTRO2015,
+      title={{ORB-SLAM}: a Versatile and Accurate Monocular {SLAM} System},
+      author={Mur-Artal, Ra\'ul, Montiel, J. M. M. and Tard\'os, Juan D.},
+      journal={IEEE Transactions on Robotics},
+      volume={31},
+      number={5},
+      pages={1147--1163},
+      doi = {10.1109/TRO.2015.2463671},
+      year={2015}
+     }
 
 
