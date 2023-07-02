@@ -13,14 +13,31 @@ Jetson-SLAM is a GPU-thrusted real-time SLAM library for **Monocular**, **Stereo
 
 
 #### Highlight
-![Highlight](/assets/img/kitti.png)
+![Highlight](/assets/img/fig1.png)
 
 # 1. Main Results
 
-#### Throughput on KITTI Benchmark
-![Throughput on KITTI Benchmark](/assets/img/kitti_eval.png)
+#### Results on KITTI Benchmark
+![Results on KITTI Benchmark](/assets/img/kitti_plot.png)
 
-![KITTI Trajectories](/assets/img/kitti.png)
+![KITTI Trajectories](/assets/img/kitti_traj.png)
+
+
+#### Results on EuRoC Benchmark
+![Results on EuRoC Benchmark](/assets/img/euroc_plot.png)
+
+![Results on EuRoC Benchmark](/assets/img/euroc_table.png)
+
+![EuRoC Trajectories](/assets/img/euroc_traj.png)
+
+
+#### Results on KAIST-VIO Benchmark
+![Results on KAIST-VIO Benchmark](/assets/img/kaistvio_table.png)
+
+![KAIST-VIO Trajectories](/assets/img/kaistvio_traj.png)
+
+#### Performance with scaled versions of VGG-16 Co-existing on Jetson-NX
+![Co-exating VGG performance](/assets/img/vgg.png)
 
 
 ### License
