@@ -61,7 +61,7 @@ alt="Jetson-SLAM" width="483" height="271" border="0" /></a>
 
 ### Run Instructions
 
-	Go to execs and run Jetson-SLAM on following choices
+	Go to execs and run Jetson-SLAM on following choices:
 	1. Run stereo_kitti for [KITTI Benchmark]()
 	2. Run stereo_euroc for [EuRoC Benchmark]()
 	3. Run stereo_kaistvio for [KAIST-VIO Benchmark]()
