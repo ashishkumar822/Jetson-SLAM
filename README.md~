@@ -14,7 +14,7 @@ Jetson-SLAM is a GPU-thrusted real-time SLAM library for **Monocular**, **Stereo
 
 # 1. Main Results
 #### Throughput on KITTI Benchmark
-![Throughput on KITTI Benchmark](/assets/img/fig1.png")
+![Throughput on KITTI Benchmark](/assets/img/fig1.png)
 
 
 ### License
