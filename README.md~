@@ -19,12 +19,14 @@ alt="Jetson-SLAM" width="483" height="271" border="0" /></a>
 </p>
 
 # Main highlights
+
+![Highlight](/assets/img/fig1.png)
+
 <div>
 <p align="center">
-<img src="/assets/img/fig1.png" alt="front-end" width="300" height="300" border="0" />
-<img src="/assets/gif/kaistvio_circle.gif" alt="Jetson-SLAM" width="300" height="300" border="0" />
+<img align="center" src="/assets/gif/kaistvio_circle.gif" 
+alt="Jetson-SLAM" width="300" height="300" border="0" />
 </p>
-
 
 # 1. Main Results
 
