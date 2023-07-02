@@ -30,6 +30,14 @@ alt="Jetson-SLAM" width="483" height="271" border="0" />
 
 # 1. Main Results
 
+### Datasets 
+1. [KITTI-Benchmark](https://github.com/zinuok/VINS-MONO)
+
+2. [EuRoC Benchmark](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets)
+
+3. [KAIST-VIO Benchmark](https://github.com/url-kaist/kaistviodataset)
+
+
 #### Results on KITTI Benchmark
 ![Results on KITTI Benchmark](/assets/img/kitti_plot.png)
 
@@ -75,13 +83,6 @@ alt="Jetson-SLAM" width="483" height="271" border="0" />
 	3. Run stereo_kaistvio for KAIST-VIO Benchmark
 	4. Run stereo_live for live images from a Stereo-Rig. Please customize the "stereo_live_config.yaml" file for your stereo rig.
 	
-
-### Datasets 
-1. [KITTI-Benchmark](https://github.com/zinuok/VINS-MONO)
-
-2. [EuRoC Benchmark](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets)
-
-3. [KAIST-VIO Benchmark](https://github.com/url-kaist/kaistviodataset)
 
 
 ### License
