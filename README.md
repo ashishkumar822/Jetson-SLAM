@@ -1,7 +1,7 @@
 # Jetson-SLAM
 **To be done**
 
-**The Front-end of Jetson-SLAM will be released as a separate repository also.**
+**The Frontend of Jetson-SLAM will be released as a separate repository also.**
 
 **Authors:** Ashish Kumar
 
