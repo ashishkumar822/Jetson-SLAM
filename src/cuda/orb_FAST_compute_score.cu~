@@ -37,6 +37,7 @@ namespace orb_cuda {
 #define th_FAST_MIN 9 // 0.6
 #define th_FAST_MAX 13 // 0.9
 
+#define GRID_LAUNCH
 
 void ORB_GPU::patternCircle(int* pattern_circle, int rowStride, int patternSize)
 {

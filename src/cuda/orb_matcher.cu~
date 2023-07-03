@@ -15,7 +15,7 @@
 *
 */
 
-//// Part of the Middle-end
+//// Part of Middle-end
 
 #include "cuda/orb_matcher.hpp"
 

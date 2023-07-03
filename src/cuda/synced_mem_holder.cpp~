@@ -15,7 +15,6 @@
 *
 */
 
-// Part of the middle-end
 
 #include "cuda/synced_mem_holder.hpp"
 
