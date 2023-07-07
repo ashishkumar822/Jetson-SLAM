@@ -1,6 +1,10 @@
 # Jetson-SLAM
 **More updates coming soon**
 
+**To be done:**
+# 1. Update exec folder
+
+
 **The frontend of Jetson-SLAM will be released as a separate repository as-well.**
 
 **Authors:** Ashish Kumar
