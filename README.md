@@ -1,4 +1,8 @@
 # Jetson-SLAM
+
+## Published at IEEE Robotics and Automation Letters 2023
+## Presented at Internation Conference on Robotics and Automation 2024 (ICRA)
+
 **More updates coming soon**
 
 **To be done:**
