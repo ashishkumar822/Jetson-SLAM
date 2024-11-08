@@ -98,9 +98,12 @@ Jetson-SLAM is released under a [GPLv3 license].
 
 ### Bibtex citation:
 
-     @article{Jetson-SLAM,
-       title={{High-Speed Stereo Visual-{SLAM} For Low-Powered Computing Devices},
-       author={Kumar, Ashish and Park, Jaesik and Behera, Laxmidhar},
-       year={2023},
+     @article{kumar2023high,
+	  title={High-speed stereo visual SLAM for low-powered computing devices},
+	  author={Kumar, Ashish and Park, Jaesik and Behera, Laxmidhar},
+	  journal={IEEE Robotics and Automation Letters},
+	  year={2023},
+	  publisher={IEEE}
       }
+
 
