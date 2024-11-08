@@ -102,7 +102,7 @@ ${PROJECT_SOURCE_DIR}/Thirdparty/g2o/lib/libg2o.so
 
 # Build execs
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Stereo)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/execs)
 
 add_executable(stereo_kitti execs/stereo_kitti.cc)
 target_link_libraries(stereo_kitti ${PROJECT_NAME})
@@ -115,37 +115,5 @@ target_link_libraries(stereo_kaistvio ${PROJECT_NAME})
 
 add_executable(stereo_live execs/stereo_live.cpp)
 target_link_libraries(stereo_live ${PROJECT_NAME})
-
-
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/RGB-D)
-
-add_executable(rgbd_tum
-Examples/RGB-D/rgbd_tum.cc)
-target_link_libraries(rgbd_tum ${PROJECT_NAME})
-
-add_executable(rgbd_live
-Examples/RGB-D/rgbd_live.cc)
-target_link_libraries(rgbd_live ${PROJECT_NAME})
-
-
-
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Monocular)
-
-add_executable(mono_live
-Examples/Monocular/mono_live.cc)
-target_link_libraries(mono_live ${PROJECT_NAME})
-
-
-add_executable(mono_tum
-Examples/Monocular/mono_tum.cc)
-target_link_libraries(mono_tum ${PROJECT_NAME})
-
-add_executable(mono_kitti
-Examples/Monocular/mono_kitti.cc)
-target_link_libraries(mono_kitti ${PROJECT_NAME})
-
-add_executable(mono_euroc
-Examples/Monocular/mono_euroc.cc)
-target_link_libraries(mono_euroc ${PROJECT_NAME})
 
 

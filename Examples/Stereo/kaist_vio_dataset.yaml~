@@ -1,0 +1,105 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# GPU Parameters
+#--------------------------------------------------------------------------------------------
+
+gpu.use_gpu: 1
+gpu.is_jetson: 0
+
+
+#--------------------------------------------------------------------------------------------
+# Camera Parameters. Adjust them!
+#--------------------------------------------------------------------------------------------
+
+# Camera calibration and distortion parameters (OpenCV) 
+#1280x720
+#Camera.fx: 735
+#Camera.fy: 735
+#Camera.cx: 679
+#Camera.cy: 288
+
+#640x480
+Camera.fx: 380.9
+Camera.fy: 380.2
+Camera.cx: 324.6
+Camera.cy: 224.6
+
+
+Camera.k1: 0.0
+Camera.k2: 0.0
+Camera.p1: 0.0
+Camera.p2: 0.0
+
+#Camera.k1: 0.006896928127777268
+#Camera.k2: -0.009144207062654397
+#Camera.p1: 0.000254113977103925
+#Camera.p2: 0.0021434982252719545
+
+#k1: 0.007044055287844759
+#k2: -0.010251485722185347
+#p1: 0.0006674304399871926
+#p2: 0.001678899816379666
+
+
+
+#Camera.width: 1280
+#Camera.height: 720
+
+Camera.width: 640
+Camera.height: 480
+
+#Camera.width: 320
+#Camera.height: 240
+
+# Camera frames per second 
+Camera.fps: 40
+
+# stereo baseline times fx
+#Camera.bf: 58.76
+#Camera.bf: 50.63
+Camera.bf: 19
+
+# Color order of the images (0: BGR, 1: RGB. It is ignored if images are grayscale)
+Camera.RGB: 1
+
+# Close/Far threshold. Baseline times.
+ThDepth: 35
+
+#--------------------------------------------------------------------------------------------
+# ORB Parameters
+#--------------------------------------------------------------------------------------------
+ORBextractor.tile_h: 32
+ORBextractor.tile_w: 32
+ORBextractor.fixed_multi_scale_tile_size: 0
+ORBextractor.apply_nms_ms: 1
+ORBextractor.nms_ms_mode_gpu: 1
+
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels: 4
+
+# ORB Extractor: Fast threshold
+
+# Firstly we impose th_FAST_MAX. If no corners are detected we impose a lower value th_FAST_MIN
+# You can lower these values if your images have low contrast			
+
+ORBextractor.th_FAST_MIN: 7
+ORBextractor.th_FAST_MAX: 20
+
+ORBextractor.FAST_N_MIN: 9
+ORBextractor.FAST_N_MAX: 14
+
+#--------------------------------------------------------------------------------------------
+# Viewer Parameters
+#--------------------------------------------------------------------------------------------
+Viewer.KeyFrameSize: 0.6
+Viewer.KeyFrameLineWidth: 2
+Viewer.GraphLineWidth: 1
+Viewer.PointSize:2
+Viewer.CameraSize: 0.7
+Viewer.CameraLineWidth: 3
+Viewer.ViewpointX: 0
+Viewer.ViewpointY: -100
+Viewer.ViewpointZ: -0.1
+Viewer.ViewpointF: 2000
+

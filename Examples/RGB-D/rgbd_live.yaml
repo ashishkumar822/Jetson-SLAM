@@ -1,0 +1,92 @@
+%YAML:1.0
+
+#mask.left: "/home/isl-server/ashish/datasets/generalautonomy/small_any_pick/data_20240817_185618/ego/mask_ego.png"
+mask.left: "/home/isl-server/ashish/datasets/generalautonomy/fridge_open/data_20240814_184608/right_gripper/mask_right_gripper.png"
+
+#--------------------------------------------------------------------------------------------
+# GPU Parameters
+#--------------------------------------------------------------------------------------------
+
+gpu.use_gpu: 1
+gpu.is_jetson: 0
+
+#--------------------------------------------------------------------------------------------
+# Camera Parameters. Adjust them!
+#--------------------------------------------------------------------------------------------
+
+# Camera calibration and distortion parameters (OpenCV) 
+Camera.fx: 640.811
+Camera.fy: 640.209
+Camera.cx: 652.623
+Camera.cy: 400.873
+
+#Camera.k1: -0.05445488914847374
+#Camera.k2: 0.065945722162723541
+#Camera.p1: -0.00036503968294709921
+#Camera.p2: 0.0011364475358277559
+#Camera.k3: -0.021424319595098495
+
+Camera.k1: 0
+Camera.k2: 0
+Camera.p1: 0
+Camera.p2: 0
+Camera.k3: 0
+
+Camera.width: 848
+Camera.height: 480
+
+# Camera frames per second 
+Camera.fps: 30.0
+
+# IR projector baseline times fx (aprox.)
+Camera.bf: 37.87
+
+# Color order of the images (0: BGR, 1: RGB. It is ignored if images are grayscale)
+Camera.RGB: 1
+
+# Close/Far threshold. Baseline times.
+ThDepth: 40.0
+
+# Deptmap values factor 
+DepthMapFactor: 1000.0
+
+#--------------------------------------------------------------------------------------------
+# ORB Parameters
+#--------------------------------------------------------------------------------------------
+ORBextractor.tile_h: 10
+ORBextractor.tile_w: 10
+ORBextractor.fixed_multi_scale_tile_size: 0
+ORBextractor.apply_nms_ms: 0
+ORBextractor.nms_ms_mode_gpu: 1
+
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels: 8
+
+# ORB Extractor: Fast threshold
+
+# Firstly we impose th_FAST_MAX. If no corners are detected we impose a lower value th_FAST_MIN
+# You can lower these values if your images have low contrast			
+
+ORBextractor.th_FAST_MIN: 7
+ORBextractor.th_FAST_MAX: 20
+
+ORBextractor.FAST_N_MIN: 9
+ORBextractor.FAST_N_MAX: 14
+
+
+#--------------------------------------------------------------------------------------------
+# Viewer Parameters
+#--------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1
+Viewer.GraphLineWidth: 0.9
+Viewer.PointSize:2
+Viewer.CameraSize: 0.08
+Viewer.CameraLineWidth: 3
+Viewer.ViewpointX: 0
+Viewer.ViewpointY: -0.7
+Viewer.ViewpointZ: -1.8
+Viewer.ViewpointF: 500
+
+
