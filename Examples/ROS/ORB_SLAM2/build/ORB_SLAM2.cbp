@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ORB_SLAM2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\ros\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\ros\core\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\ros\core\rosbuild\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\rosunit\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\rosunit\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\platform\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\test\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\tools\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\roslib\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\roslib\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\rospack\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\rospack\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\roslang\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\roslang\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\genmsg\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\genmsg\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\gencpp\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\gencpp\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\genlisp\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\genlisp\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\genpy\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\genpy\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\roslisp\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\roslisp\rosbuild\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\roscpp\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\roscpp\rosbuild\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\rospy\;CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\rospy\rosbuild\;CMake Files\..\..\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\..\..\..\usr\share\OpenCV\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\Pangolin\;CMake Files\..\..\..\..\..\..\..\..\..\usr\src\;CMake Files\..\..\..\..\..\..\..\..\..\usr\src\gtest\;CMake Files\..\..\..\..\..\..\..\..\..\usr\src\gtest\cmake\;CMake Files\..\..\..\cmake_modules\;CMake Files\build\;CMake Files\build\catkin\;CMake Files\build\catkin\catkin_generated\;CMake Files\build\catkin\catkin_generated\version\;CMake Files\build\catkin_generated\;CMake Files\build\catkin_generated\installspace\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RGBD">
+				<Option output="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/RGBD" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_PACKAGE_NAME=&quot;ORB_SLAM2&quot;"/>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/include"/>
+					<Add directory="/opt/ros/indigo/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../.."/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../include"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/eigen3"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 RGBD"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RGBD/fast">
+				<Option output="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/RGBD" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_PACKAGE_NAME=&quot;ORB_SLAM2&quot;"/>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/include"/>
+					<Add directory="/opt/ros/indigo/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../.."/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../include"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/eigen3"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 RGBD/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Stereo">
+				<Option output="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/Stereo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_PACKAGE_NAME=&quot;ORB_SLAM2&quot;"/>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/include"/>
+					<Add directory="/opt/ros/indigo/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../.."/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../include"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/eigen3"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 Stereo"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Stereo/fast">
+				<Option output="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/Stereo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_PACKAGE_NAME=&quot;ORB_SLAM2&quot;"/>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/include"/>
+					<Add directory="/opt/ros/indigo/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../.."/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../include"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/eigen3"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 Stereo/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ROSBUILD_genmsg_lisp">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 ROSBUILD_genmsg_lisp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ROSBUILD_genmsg_cpp">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 ROSBUILD_genmsg_cpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-results-run">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 test-results-run"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosbuild_premsgsrvgen">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 rosbuild_premsgsrvgen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ROSBUILD_gensrv_cpp">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 ROSBUILD_gensrv_cpp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 tests"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-results">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 test-results"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rospack_gensrv">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 rospack_gensrv"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-future">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 test-future"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Mono">
+				<Option output="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/Mono" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_PACKAGE_NAME=&quot;ORB_SLAM2&quot;"/>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/include"/>
+					<Add directory="/opt/ros/indigo/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../.."/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../include"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/eigen3"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 Mono"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Mono/fast">
+				<Option output="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/Mono" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_PACKAGE_NAME=&quot;ORB_SLAM2&quot;"/>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/include"/>
+					<Add directory="/opt/ros/indigo/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../.."/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../include"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/eigen3"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 Mono/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rospack_genmsg_libexe">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 rospack_genmsg_libexe"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MonoAR">
+				<Option output="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/MonoAR" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_PACKAGE_NAME=&quot;ORB_SLAM2&quot;"/>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/include"/>
+					<Add directory="/opt/ros/indigo/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../.."/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../include"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/eigen3"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 MonoAR"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MonoAR/fast">
+				<Option output="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/MonoAR" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_PACKAGE_NAME=&quot;ORB_SLAM2&quot;"/>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/include"/>
+					<Add directory="/opt/ros/indigo/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../.."/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../include"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/eigen3"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 MonoAR/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosbuild_clean-test-results">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 rosbuild_clean-test-results"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ROSBUILD_gensrv_lisp">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 ROSBUILD_gensrv_lisp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rospack_genmsg">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 rospack_genmsg"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosbuild_precompile">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 rosbuild_precompile"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doxygen">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 doxygen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_tests">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 run_tests"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="download_extra_data">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 download_extra_data"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_catkin_empty_exported_target">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 _catkin_empty_exported_target"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clean_test_results">
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean_test_results"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/lib/libgtest_main.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;ORB_SLAM2&quot;"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/include"/>
+					<Add directory="/opt/ros/indigo/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/src/gtest/include"/>
+					<Add directory="/usr/src/gtest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/lib/libgtest_main.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;ORB_SLAM2&quot;"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/include"/>
+					<Add directory="/opt/ros/indigo/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/src/gtest/include"/>
+					<Add directory="/usr/src/gtest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/lib/libgtest.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;ORB_SLAM2&quot;"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/include"/>
+					<Add directory="/opt/ros/indigo/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/src/gtest/include"/>
+					<Add directory="/usr/src/gtest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/lib/libgtest.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;ORB_SLAM2&quot;"/>
+					<Add directory="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/include"/>
+					<Add directory="/opt/ros/indigo/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/src/gtest/include"/>
+					<Add directory="/usr/src/gtest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/src/AR/ViewerAR.cc">
+			<Option target="MonoAR"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/src/AR/ViewerAR.h">
+			<Option target="MonoAR"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/src/AR/ros_mono_ar.cc">
+			<Option target="MonoAR"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/src/ros_mono.cc">
+			<Option target="Mono"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/src/ros_rgbd.cc">
+			<Option target="RGBD"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/src/ros_stereo.cc">
+			<Option target="Stereo"/>
+		</Unit>
+		<Unit filename="/usr/src/gtest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/usr/src/gtest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/ros/core/rosbuild/ProcessorCount.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\ros\core\rosbuild\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/ros/core/rosbuild/private.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\ros\core\rosbuild\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/ros/core/rosbuild/public.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\ros\core\rosbuild\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/ros/core/rosbuild/rosbuild.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\ros\core\rosbuild\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/ros/core/rosbuild/rosconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\ros\core\rosbuild\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/rosunit/cmake/rosunit-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\rosunit\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/rosunit/cmake/rosunitConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\rosunit\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/rosunit/cmake/rosunitConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\rosunit\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/package.xml">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/all.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/assert.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/atomic_configure_file.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/catkinConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/catkin_add_env_hooks.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/catkin_destinations.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/catkin_download.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/catkin_generate_environment.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/catkin_install_python.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/catkin_libraries.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/catkin_metapackage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/catkin_package.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/catkin_package_xml.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/catkin_python_setup.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/catkin_workspace.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/debug_message.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/em_expand.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/empy.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/find_program_required.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/interrogate_setup_dot_py.py">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/legacy.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/list_append_deduplicate.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/list_append_unique.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/list_insert_in_workspace_order.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/python.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/safe_execute_process.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/stamp.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/string_starts_with.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/platform/lsb.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\platform\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/platform/ubuntu.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\platform\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/platform/windows.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\platform\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/test/catkin_download_test_data.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\test\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/test/gtest.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\test\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/test/nosetests.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\test\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/test/tests.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\test\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/tools/doxygen.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\tools\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/tools/libraries.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\tools\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/tools/rt.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\tools\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/templates/_setup_util.py.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/templates/env.sh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/templates/generate_cached_setup.py.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/templates/rosinstall.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/templates/setup.bash.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/templates/setup.sh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/catkin/cmake/templates/setup.zsh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/roslib/cmake/roslib-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\roslib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/roslib/cmake/roslibConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\roslib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/roslib/cmake/roslibConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\roslib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/rospack/cmake/rospackConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\rospack\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/rospack/cmake/rospackConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\rospack\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/roslang/cmake/roslang.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\roslang\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/genmsg/cmake/genmsg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/genmsg/cmake/genmsgConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/genmsg/cmake/genmsgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/gencpp/cmake/gencpp-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\gencpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/gencpp/cmake/gencppConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\gencpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/gencpp/cmake/gencppConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\gencpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/genlisp/cmake/genlisp-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\genlisp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/genlisp/cmake/genlispConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\genlisp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/genlisp/cmake/genlispConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\genlisp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/genpy/cmake/genpy-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\genpy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/genpy/cmake/genpyConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\genpy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/genpy/cmake/genpyConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\genpy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/roslisp/rosbuild/roslisp.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\roslisp\rosbuild\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/roscpp/rosbuild/roscpp.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\roscpp\rosbuild\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../opt/ros/indigo/share/rospy/rosbuild/rospy.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\opt\ros\indigo\share\rospy\rosbuild\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../usr/local/lib/cmake/Pangolin/PangolinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../usr/local/lib/cmake/Pangolin/PangolinConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../usr/local/lib/cmake/Pangolin/PangolinTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../usr/local/lib/cmake/Pangolin/PangolinTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../usr/src/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\src\gtest\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../../../../../../../usr/src/gtest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\src\gtest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/../../../cmake_modules/FindEigen3.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/catkin/catkin_generated/version/package.cmake">
+			<Option virtualFolder="CMake Files\build\catkin\catkin_generated\version\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\build\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-master/Examples/ROS/ORB_SLAM2/build/catkin_generated/installspace/_setup_util.py">
+			<Option virtualFolder="CMake Files\build\catkin_generated\installspace\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
