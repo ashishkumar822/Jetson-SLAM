@@ -41,7 +41,7 @@ set(CUDA_NVCC_FLAGS "--std c++14")
 
 LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
 
-find_package(OpenCV 4.10.0 REQUIRED)
+find_package(OpenCV 4 REQUIRED)
 
 if(NOT OpenCV_FOUND)
   message(FATAL_ERROR "OpenCV >= 4  not found.")
