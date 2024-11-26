@@ -69,7 +69,7 @@ alt="Jetson-SLAM" width="70%" height="70%" border="0" />
 	**Step-1**
 	 Install the dependencies given below:
 
-	1. OpenCV 4.10.0
+	1. OpenCV 4 (Currently tested with 4.10.0)
 	2. Eigen3
 	3. CUDA
 	4. Pangolin
