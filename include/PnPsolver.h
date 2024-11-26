@@ -48,14 +48,20 @@
 *   either expressed or implied, of the FreeBSD Project
 */
 
+
+/**
+* This file is part of  Jetson-SLAM and is taken from ORB-SLAM2 repo. See above.
+*/
+
 #ifndef PNPSOLVER_H
 #define PNPSOLVER_H
 
 #include <opencv2/core/core.hpp>
 #include "MapPoint.h"
 #include "Frame.h"
+#include<opencv2/core/types_c.h>
 
-namespace ORB_SLAM2
+namespace Jetson_SLAM
 {
 
 class PnPsolver {

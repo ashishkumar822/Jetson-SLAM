@@ -18,6 +18,10 @@
 * along with ORB-SLAM2. If not, see <http://www.gnu.org/licenses/>.
 */
 
+/**
+* This file is part of  Jetson-SLAM and is taken from ORB-SLAM2 repo. See above.
+*/
+
 #ifndef FRAME_H
 #define FRAME_H
 
@@ -37,7 +41,7 @@
 
 using namespace orb_cuda;
 
-namespace ORB_SLAM2
+namespace Jetson_SLAM
 {
 #define FRAME_GRID_ROWS 48
 #define FRAME_GRID_COLS 64

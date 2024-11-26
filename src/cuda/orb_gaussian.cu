@@ -1,21 +1,3 @@
-/**
-* This file is part of Jetson-SLAM.
-*
-* Written by Ashish Kumar Indian Institute of Tehcnology, Kanpur, India
-* For more information see <https://github.com/ashishkumar822/Jetson-SLAM>
-*
-* Jetson-SLAM is free software: you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation, either version 3 of the License, or
-* (at your option) any later version.
-*
-* Jetson-SLAM is distributed WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
-*
-*/
-
-
 #include "cuda/orb_gpu.hpp"
 
 #include<vector>
@@ -254,7 +236,287 @@ void ORB_GPU::compute_gaussian(int height, int width,
                                                                                           image_gaussian_pitch,
                                                                                           gaussian_weights_gpu);
 
+
+        // cz 3 per block
+
+        //        int CUDA_NUM_BLOCKS = ((roiheight * roiwidth - 1) / 3)  + 1;
+        //        int n_threads =  CUDA_NUM_BLOCKS * CUDA_NUM_THREADS_PER_BLOCK_V2;
+
+
+        //        imgaussian_GPU_v2<<<CUDA_NUM_BLOCKS, CUDA_NUM_THREADS_PER_BLOCK_V2, 0, cuda_stream>>>(
+        //                                                                                             n_threads,
+        //                                                                                             height, width,
+        //                                                                                             roiheight, roiwidth,
+        //                                                                                             image_data_gpu,
+        //                                                                                             image_data_gaussian_gpu,
+        //                                                                                             gaussian_weights_gpu);
+
     }
 }
 
 
+
+
+__global__ void imgaussian_GPU_unroll(int n_threads,
+                                      int height, int width,
+                                      int roiheight, int roiwidth,
+                                      unsigned char* image_data,
+                                      float* gaussian_weights,
+                                      unsigned char* gaussian_unrolling)
+{
+    int index = blockDim.x * blockIdx.x +  threadIdx.x;
+
+    if(index < n_threads)
+    {
+        int h = (index / 7) / roiwidth;
+        int w = (index / 7) % roiwidth;
+
+        int h_im = h + 3;
+        int w_im = w + 3;
+
+        int kernel_loc_w = index % 7;
+        int col_offset = w_im + kernel_loc_w - 3;
+
+        float val = 0;
+        int count = 0;
+
+        for(int i=-3;i<=3;i++)
+        {
+            int row_offset = (h_im + i) * width;
+            val += gaussian_weights[count * 7 + kernel_loc_w] * image_data[row_offset + col_offset];
+            count++;
+        }
+
+        const int spatial_offset = roiwidth * roiheight;
+        const int spatial_w = index / 7;
+
+        gaussian_unrolling[kernel_loc_w * spatial_offset + spatial_w] = val;
+    }
+
+}
+
+
+__global__ void imgaussian_GPU_reduce(int n_threads,
+                                      int height, int width,
+                                      int roiheight, int roiwidth,
+                                      unsigned char* gaussian_unrolling,
+                                      unsigned char* image_data_gaussian)
+{
+    int index = blockDim.x * blockIdx.x +  threadIdx.x;
+
+    if(index < n_threads)
+    {
+        const int h = index / roiwidth;
+        const int w = index % roiwidth;
+
+        const int h_im = h + 3;
+        const int w_im = w + 3;
+
+        const int col_offset = index;
+
+        float val = 0;
+
+        for(int i=0;i<7;i++)
+        {
+            int row_offset = i * n_threads;
+            val +=  gaussian_unrolling[row_offset + col_offset];
+        }
+
+        image_data_gaussian[h_im * width + w_im] = val;
+    }
+}
+
+
+//__global__ void imgaussian_GPU_unroll(int n_threads,
+//                                      int height, int width,
+//                                      int roiheight, int roiwidth,
+//                                      unsigned char* image_data,
+//                                      float* gaussian_weights,
+//                                      unsigned char* gaussian_unrolling)
+//{
+//    int index = blockDim.x * blockIdx.x +  threadIdx.x;
+
+//    if(index < n_threads)
+//    {
+//        int h = (index / 7) / roiwidth;
+//        int w = (index / 7) % roiwidth;
+
+//        int h_im = h + 3;
+//        int w_im = w + 3;
+
+//        int kernel_loc_w = index % 7;
+//        int col_offset = w_im + kernel_loc_w - 3;
+
+//        float val = 0;
+//        int count = 0;
+
+//        for(int i=-3;i<=3;i++)
+//        {
+//            int row_offset = (h_im + i) * width;
+//            val += gaussian_weights[count * 7 + kernel_loc_w] * image_data[row_offset + col_offset];
+//            count++;
+//        }
+
+//        const int idx = h * roiwidth + w;
+
+//        gaussian_unrolling[idx * 8 + kernel_loc_w] = val;
+//    }
+
+//}
+
+
+//__global__ void imgaussian_GPU_reduce(int n_threads,
+//                                      int height, int width,
+//                                      int roiheight, int roiwidth,
+//                                      unsigned char* gaussian_unrolling,
+//                                      unsigned char* image_data_gaussian)
+//{
+//    int index = blockDim.x * blockIdx.x +  threadIdx.x;
+
+//    if(index < n_threads)
+//    {
+//        __shared__ int shared_sum[32];
+
+//        const int thread_blkidx = threadIdx.x;
+
+//        const int h = (index/32) / roiwidth;
+//        const int w = (index/32) % roiwidth;
+
+//        const int h_im = h + 3;
+//        const int w_im = w + 3;
+
+//        shared_sum[thread_blkidx] = gaussian_unrolling[index];
+
+//        int groupsize = 4;
+
+//        for(int i=0;i<3;i++)
+//        {
+//            if(thread_blkidx < groupsize)
+//                shared_sum[thread_blkidx] += shared_sum[thread_blkidx + groupsize];
+//        }
+
+//        if(thread_blkidx == 0)
+//        {
+//            image_data_gaussian[h_im * width + w_im] = shared_sum[0];
+//        }
+
+//    }
+//}
+
+
+
+void ORB_GPU::compute_gaussian_v2(int height, int width,
+                                  unsigned char* image_data_gpu,
+                                  unsigned char* gaussian_unrolling,
+                                  unsigned char* image_data_gaussian_gpu,
+                                  float* gaussian_weights_gpu,
+                                  cudaStream_t& cuda_stream)
+{
+
+
+    {
+        // 3 is (7-1)/2 for gaussian kernel of 7
+        // we dont process border because they are not involved in anycomputation
+        // in orb because of BORDER_SKIP and BORDER_OFFSET
+        int roiheight = (height - 2 * 3);
+        int roiwidth  = (width - 2 * 3);
+
+        int n_threads =  roiheight * roiwidth * 7;
+
+        int CUDA_NUM_BLOCKS = (n_threads -1 ) / CUDA_NUM_THREADS_PER_BLOCK + 1;
+
+
+        imgaussian_GPU_unroll<<<CUDA_NUM_BLOCKS, CUDA_NUM_THREADS_PER_BLOCK, 0, cuda_stream>>>(
+                                                                                                 n_threads,
+                                                                                                 height, width,
+                                                                                                 roiheight, roiwidth,
+                                                                                                 image_data_gpu,
+                                                                                                 gaussian_weights_gpu,
+                                                                                                 gaussian_unrolling);
+
+        cudaStreamSynchronize(cuda_stream);
+        std::cout << " ---- " << cudaGetErrorString(cudaGetLastError()) << "\n";
+
+    }
+
+
+    {
+        // 3 is (7-1)/2 for gaussian kernel of 7
+        // we dont process border because they are not involved in anycomputation
+        // in orb because of BORDER_SKIP and BORDER_OFFSET
+        int roiheight = (height - 2 * 3);
+        int roiwidth  = (width - 2 * 3);
+
+        int n_threads =  roiheight * roiwidth;
+
+        int CUDA_NUM_BLOCKS = (n_threads -1 ) / CUDA_NUM_THREADS_PER_BLOCK + 1;
+
+
+        imgaussian_GPU_reduce<<<CUDA_NUM_BLOCKS, CUDA_NUM_THREADS_PER_BLOCK, 0, cuda_stream>>>(
+                                                                                                 n_threads,
+                                                                                                 height, width,
+                                                                                                 roiheight, roiwidth,
+                                                                                                 gaussian_unrolling,
+                                                                                                 image_data_gaussian_gpu);
+
+        cudaStreamSynchronize(cuda_stream);
+
+        std::cout << " **** " << cudaGetErrorString(cudaGetLastError()) << "\n";
+    }
+
+
+    //    {
+    //        // 3 is (7-1)/2 for gaussian kernel of 7
+    //        // we dont process border because they are not involved in anycomputation
+    //        // in orb because of BORDER_SKIP and BORDER_OFFSET
+    //        int roiheight = (height - 2 * 3);
+    //        int roiwidth  = (width - 2 * 3);
+
+    //        int n_threads =  roiheight * roiwidth * 7;
+
+    //        int CUDA_NUM_BLOCKS = (n_threads -1 ) / CUDA_NUM_THREADS_PER_BLOCK + 1;
+
+
+    //        imgaussian_GPU_unroll<<<CUDA_NUM_BLOCKS, CUDA_NUM_THREADS_PER_BLOCK, 0, cuda_stream>>>(
+    //                                                                                                 n_threads,
+    //                                                                                                 height, width,
+    //                                                                                                 roiheight, roiwidth,
+    //                                                                                                 image_data_gpu,
+    //                                                                                                 gaussian_weights_gpu,
+    //                                                                                                 gaussian_unrolling);
+
+    //        cudaStreamSynchronize(cuda_stream);
+    //        std::cout << " ---- " << cudaGetErrorString(cudaGetLastError()) << "\n";
+
+    //    }
+
+
+    //    {
+    //        // 3 is (7-1)/2 for gaussian kernel of 7
+    //        // we dont process border because they are not involved in anycomputation
+    //        // in orb because of BORDER_SKIP and BORDER_OFFSET
+    //        int roiheight = (height - 2 * 3);
+    //        int roiwidth  = (width - 2 * 3);
+
+    //        int n_threads =  roiheight * roiwidth * 32;
+
+    //        int CUDA_NUM_BLOCKS = (n_threads -1 ) / CUDA_NUM_THREADS_PER_BLOCK_V2 + 1;
+
+
+    //        imgaussian_GPU_reduce<<<CUDA_NUM_BLOCKS, CUDA_NUM_THREADS_PER_BLOCK_V2, 0, cuda_stream>>>(
+    //                                                                                                 n_threads,
+    //                                                                                                 height, width,
+    //                                                                                                 roiheight, roiwidth,
+    //                                                                                                 gaussian_unrolling,
+    //                                                                                                 image_data_gaussian_gpu);
+
+    //        cudaStreamSynchronize(cuda_stream);
+
+    //        std::cout << " **** " << cudaGetErrorString(cudaGetLastError()) << "\n";
+    //    }
+
+
+
+}
+
+}

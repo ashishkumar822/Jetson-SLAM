@@ -29,7 +29,7 @@
 
 #include <mutex>
 
-namespace ORB_SLAM2
+namespace Jetson_SLAM
 {
 
 class Tracking;

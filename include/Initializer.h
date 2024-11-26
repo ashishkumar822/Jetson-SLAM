@@ -17,6 +17,11 @@
 * You should have received a copy of the GNU General Public License
 * along with ORB-SLAM2. If not, see <http://www.gnu.org/licenses/>.
 */
+
+/**
+* This file is part of  Jetson-SLAM and is taken from ORB-SLAM2 repo. See above.
+*/
+
 #ifndef INITIALIZER_H
 #define INITIALIZER_H
 
@@ -24,7 +29,7 @@
 #include "Frame.h"
 
 
-namespace ORB_SLAM2
+namespace Jetson_SLAM
 {
 
 // THIS IS THE INITIALIZER FOR MONOCULAR SLAM. NOT USED IN THE STEREO OR RGBD CASE.

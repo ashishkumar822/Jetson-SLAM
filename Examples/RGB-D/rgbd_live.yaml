@@ -1,7 +1,7 @@
 %YAML:1.0
 
-#mask.left: "/home/isl-server/ashish/datasets/generalautonomy/small_any_pick/data_20240817_185618/ego/mask_ego.png"
-mask.left: "/home/isl-server/ashish/datasets/generalautonomy/fridge_open/data_20240814_184608/right_gripper/mask_right_gripper.png"
+
+mask.left: "//home/ashish/ashish/datasets/ga/fridge_open/mask.png"
 
 #--------------------------------------------------------------------------------------------
 # GPU Parameters

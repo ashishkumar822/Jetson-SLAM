@@ -36,7 +36,7 @@
 #include "ORBVocabulary.h"
 #include "Viewer.h"
 
-namespace ORB_SLAM2
+namespace Jetson_SLAM
 {
 
 class Viewer;

@@ -1,0 +1,133 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# mask for features
+#--------------------------------------------------------------------------------------------
+
+mask.left: "/home/isl-server/ashish/workspace_ros_fruit_plucking/mask_left.png"
+mask.right: "/home/isl-server/ashish/workspace_ros_fruit_plucking/mask_right.png"
+
+
+
+
+
+#--------------------------------------------------------------------------------------------
+# GPU Parameters
+#--------------------------------------------------------------------------------------------
+
+gpu.use_gpu: 1
+gpu.is_jetson: 0
+
+
+#--------------------------------------------------------------------------------------------
+# Camera Parameters. Adjust them!
+#--------------------------------------------------------------------------------------------
+
+# Camera calibration and distortion parameters (OpenCV) 
+#1280x720
+#Camera.fx: 735
+#Camera.fy: 735
+#Camera.cx: 679
+#Camera.cy: 288
+
+#640x480
+#Camera.fx: 633.9
+#Camera.fy: 633.9
+#Camera.cx: 350
+#Camera.cy: 179
+
+
+#320x240
+#Camera.fx: 335
+#Camera.fy: 335
+#Camera.cx: 188
+#Camera.cy: 108
+
+#864x480
+#Camera.fx: 580
+#Camera.fy: 580
+#Camera.cx: 458
+#Camera.cy: 204
+
+#424x240
+Camera.fx: 210.862
+Camera.fy: 210.862
+Camera.cx: 212.868
+Camera.cy: 120.018
+
+
+Camera.k1: 0.0
+Camera.k2: 0.0
+Camera.p1: 0.0
+Camera.p2: 0.0
+
+#Camera.width: 1280
+#Camera.height: 720
+
+#Camera.width: 640
+#Camera.height: 480
+
+#Camera.width: 320
+#Camera.height: 240
+
+#Camera.width: 864
+#Camera.height: 480
+
+Camera.width: 424
+Camera.height: 240
+
+# Camera frames per second 
+Camera.fps: 90.0
+
+# stereo baseline times fx
+#Camera.bf: 58.76
+#Camera.bf: 50.63
+#Camera.bf: 27.22
+#Camera.bf: 46.41
+Camera.bf: 10.54
+
+# Color order of the images (0: BGR, 1: RGB. It is ignored if images are grayscale)
+Camera.RGB: 1
+
+# Close/Far threshold. Baseline times.
+ThDepth: 150
+
+#--------------------------------------------------------------------------------------------
+# ORB Parameters
+#--------------------------------------------------------------------------------------------
+
+ORBextractor.tile_h: 20
+ORBextractor.tile_w: 20
+ORBextractor.fixed_multi_scale_tile_size: 0
+ORBextractor.apply_nms_ms: 1
+ORBextractor.nms_ms_mode_gpu: 1
+
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels: 8
+
+# ORB Extractor: Fast threshold
+
+# Firstly we impose th_FAST_MAX. If no corners are detected we impose a lower value th_FAST_MIN
+# You can lower these values if your images have low contrast			
+
+ORBextractor.th_FAST_MIN: 7
+ORBextractor.th_FAST_MAX: 40
+
+ORBextractor.FAST_N_MIN: 10
+ORBextractor.FAST_N_MAX: 15
+
+
+#--------------------------------------------------------------------------------------------
+# Viewer Parameters
+#--------------------------------------------------------------------------------------------
+Viewer.KeyFrameSize: 0.6
+Viewer.KeyFrameLineWidth: 2
+Viewer.GraphLineWidth: 1
+Viewer.PointSize:2
+Viewer.CameraSize: 0.7
+Viewer.CameraLineWidth: 3
+Viewer.ViewpointX: 0
+Viewer.ViewpointY: -100
+Viewer.ViewpointZ: -0.1
+Viewer.ViewpointF: 2000
+

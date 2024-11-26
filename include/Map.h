@@ -18,6 +18,10 @@
 * along with ORB-SLAM2. If not, see <http://www.gnu.org/licenses/>.
 */
 
+/**
+* This file is part of  Jetson-SLAM and is taken from ORB-SLAM2 repo. See above.
+*/
+
 #ifndef MAP_H
 #define MAP_H
 
@@ -29,7 +33,7 @@
 
 
 
-namespace ORB_SLAM2
+namespace Jetson_SLAM
 {
 
 class MapPoint;

@@ -18,6 +18,10 @@
 * along with ORB-SLAM2. If not, see <http://www.gnu.org/licenses/>.
 */
 
+/**
+* This file is part of  Jetson-SLAM and is taken from ORB-SLAM2 repo. See above.
+*/
+
 #ifndef CONVERTER_H
 #define CONVERTER_H
 
@@ -27,7 +31,7 @@
 #include"Thirdparty/g2o/g2o/types/types_six_dof_expmap.h"
 #include"Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h"
 
-namespace ORB_SLAM2
+namespace Jetson_SLAM
 {
 
 class Converter

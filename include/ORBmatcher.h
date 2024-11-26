@@ -1,22 +1,4 @@
 /**
-* This file is part of Jetson-SLAM.
-*
-* Written by Ashish Kumar Indian Institute of Tehcnology, Kanpur, India
-* For more information see <https://github.com/ashishkumar822/Jetson-SLAM>
-*
-* Jetson-SLAM is free software: you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation, either version 3 of the License, or
-* (at your option) any later version.
-*
-* Jetson-SLAM is distributed WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-* GNU General Public License for more details.
-*
-*/
-
-
-/**
 * This file is part of ORB-SLAM2.
 *
 * Copyright (C) 2014-2016 Raúl Mur-Artal <raulmur at unizar dot es> (University of Zaragoza)
@@ -36,6 +18,10 @@
 * along with ORB-SLAM2. If not, see <http://www.gnu.org/licenses/>.
 */
 
+/**
+* This file is part of  Jetson-SLAM and is taken from ORB-SLAM2 repo. See above.
+*/
+
 
 #ifndef ORBMATCHER_H
 #define ORBMATCHER_H
@@ -49,7 +35,7 @@
 #include"Frame.h"
 
 
-namespace ORB_SLAM2
+namespace Jetson_SLAM
 {
 
 class ORBmatcher

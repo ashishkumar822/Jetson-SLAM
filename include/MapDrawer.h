@@ -18,6 +18,10 @@
 * along with ORB-SLAM2. If not, see <http://www.gnu.org/licenses/>.
 */
 
+/**
+* This file is part of  Jetson-SLAM and is taken from ORB-SLAM2 repo. See above.
+*/
+
 #ifndef MAPDRAWER_H
 #define MAPDRAWER_H
 
@@ -28,7 +32,7 @@
 
 #include<mutex>
 
-namespace ORB_SLAM2
+namespace Jetson_SLAM
 {
 
 class MapDrawer

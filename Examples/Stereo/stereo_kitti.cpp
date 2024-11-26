@@ -1,19 +1,23 @@
 /**
-* This file is part of Jetson-SLAM.
+* This file is part of ORB-SLAM2.
 *
-* Written by Ashish Kumar Indian Institute of Tehcnology, Kanpur, India
-* For more information see <https://github.com/ashishkumar822/Jetson-SLAM>
+* Copyright (C) 2014-2016 Raúl Mur-Artal <raulmur at unizar dot es> (University of Zaragoza)
+* For more information see <https://github.com/raulmur/ORB_SLAM2>
 *
-* Jetson-SLAM is free software: you can redistribute it and/or modify
+* ORB-SLAM2 is free software: you can redistribute it and/or modify
 * it under the terms of the GNU General Public License as published by
 * the Free Software Foundation, either version 3 of the License, or
 * (at your option) any later version.
 *
-* Jetson-SLAM is distributed WITHOUT ANY WARRANTY; without even the implied warranty of
+* ORB-SLAM2 is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
 * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 * GNU General Public License for more details.
 *
+* You should have received a copy of the GNU General Public License
+* along with ORB-SLAM2. If not, see <http://www.gnu.org/licenses/>.
 */
+
 
 #include<iostream>
 #include<algorithm>
@@ -22,6 +26,7 @@
 #include<chrono>
 
 #include<opencv2/core/core.hpp>
+#include <opencv2/imgcodecs/legacy/constants_c.h>
 
 #include<System.h>
 
@@ -35,19 +40,15 @@ void LoadImages_VO_seq(const string &strPathToSequence, vector<string> &vstrImag
 
 int main(int argc, char **argv)
 {
-//    if(argc != 4)
-//    {
-//        cerr << endl << "Usage: ./stereo_kitti path_to_vocabulary path_to_settings path_to_sequence" << endl;
-//        return 1;
-//    }
+    if(argc != 4)
+    {
+        cerr << endl << "Usage: ./stereo_kitti path_to_vocabulary path_to_settings path_to_sequence" << endl;
+        return 1;
+    }
 
-    std::string str_vocab = "/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-IROS_2022_new/Vocabulary/ORBvoc.txt";
-    std::string str_settings = "/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-IROS_2022_new/Examples/Stereo/KITTI00-02.yaml";
-//std::string str_seq_path  = "/home/isl-server/ashish/datasets/kitti_sequences/raw/2011_09_26/2011_09_26_drive_0051_sync";
-//    std::string str_seq_path  = "/home/isl-server/ashish/datasets/kitti_sequences/raw/2011_09_26/2011_09_26_drive_0061_sync";
-
-//    std::string str_settings = "/home/isl-server/ashish/libraries/orb_slam2/ORB_SLAM2-IROS_2022_new/Examples/Stereo/KITTI04-12.yaml";
-    std::string str_seq_path  = "/media/isl-server/My Research/datasets/kitti/vo_sequences/dataset/sequences/01/";
+    std::string str_vocab = argv[1];
+    std::string str_settings = argv[2];
+    std::string str_seq_path  = argv[3];
 
 
     // Retrieve paths to images
@@ -60,7 +61,7 @@ int main(int argc, char **argv)
     int nImages = vstrImageLeft.size();
 
     // Create SLAM system. It initializes all system threads and gets ready to process frames.
-    ORB_SLAM2::System SLAM(str_vocab, str_settings,ORB_SLAM2::System::STEREO,true);
+    Jetson_SLAM::System SLAM(str_vocab, str_settings,Jetson_SLAM::System::STEREO,true);
 
     // Vector for tracking time statistics
     vector<float> vTimesTrack;
@@ -131,7 +132,7 @@ int main(int argc, char **argv)
 #ifdef COMPILEDWITHC11
         std::chrono::steady_clock::time_point t1 = std::chrono::steady_clock::now();
 #else
-        std::chrono::monotonic_clock::time_point t1 = std::chrono::monotonic_clock::now();
+        std::chrono::steady_clock::time_point t1 = std::chrono::steady_clock::now();
 #endif
 
         // Pass the images to the SLAM system
@@ -140,7 +141,7 @@ int main(int argc, char **argv)
 #ifdef COMPILEDWITHC11
         std::chrono::steady_clock::time_point t2 = std::chrono::steady_clock::now();
 #else
-        std::chrono::monotonic_clock::time_point t2 = std::chrono::monotonic_clock::now();
+        std::chrono::steady_clock::time_point t2 = std::chrono::steady_clock::now();
 #endif
 
         double ttrack= std::chrono::duration_cast<std::chrono::duration<double> >(t2 - t1).count();

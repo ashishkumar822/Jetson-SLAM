@@ -29,7 +29,7 @@
 
 
 
-namespace ORB_SLAM2
+namespace Jetson_SLAM
 {
 
 class Sim3Solver
