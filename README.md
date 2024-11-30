@@ -87,7 +87,12 @@ alt="Jetson-SLAM" width="70%" height="70%" border="0" />
 	3. Run stereo_kaistvio for KAIST-VIO Benchmark
 	4. Run stereo_live for live images from a Stereo-Rig. Please customize the "stereo_live_config.yaml" file for your stereo rig.
 	
+### Image Masks
+	Jetson-SLAM expects one mask for monocular/RGBD while two masks for stereo configuration. There are two mask path for each left and right image in the yaml file. Only non-zero regions in the mask shall be used to detect and extract keypoints. These masks are helpful when the camera is mounted on a structure and some part of the structure is always present in the camera field of view. Manytimes, this leads to static keypoints on the structure visible in the camera which degrades SLAM's accuracy because these points never moves w.r.t. camera.
 
+If such requirement is not needed, one can simply create a white image of size equal to the RGB/grayscale image size that would be supplied into Jetson-SLAM.
+
+e.g. If your RGB/grayscale image size is 240x240, simply create a mask of size 240x240 and supply the path to the yaml file. IF you need to hide some regions of the image, you can choose linux tool such as "GIMP" or any software of your choice.
 
 ### License
 
